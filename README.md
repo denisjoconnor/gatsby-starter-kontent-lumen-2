@@ -122,6 +122,8 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 > If you want to use [Incremental builds](https://www.netlify.com/blog/2020/04/23/enable-gatsby-incremental-builds-on-netlify/), you need to enable [Build Plugins Beta](https://docs.netlify.com/configure-builds/build-plugins/#enable-build-plugins-beta) for your site.
 
+> If you want to deploy your own copy of the gatsby-lumen-starter project, in the netlify.toml file modify the `KONTENT_PROJECT_ID` environment variable to match the value from your Kontent project's "Project Settings" ->  API keys -> Project ID, or [set the Netlify environment variables](https://docs.kontent.ai/tutorials/develop-apps/integrate/netlify#a-set-netlify-environment-variables) through the Netlify UI.
+
 ## Folder Structure
 
 ```
