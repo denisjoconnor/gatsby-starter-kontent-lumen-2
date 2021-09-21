@@ -1,6 +1,6 @@
 # Implementing Web Spotlight
 
-[Web Spotlight](https://webspotlight.kontent.ai/) is an additional tool for [Kentico Kontent](https://kontent.ai) focused on website management. Feel the power of a headless CMS while enabling your content creators to produce and update content in the context of your website.
+[Web Spotlight](https://webspotlight.kontent.ai/) is an additional tool for [Kontent by Kentico](https://kontent.ai) focused on website management. Feel the power of a headless CMS while enabling your content creators to produce and update content in the context of your website.
 
 You could find more information about this feature in the [official documentation](https://docs.kontent.ai/tutorials/set-up-kontent/set-up-your-project/web-spotlight), or check out the [recording of "Sneak Peek: An introduction to Web Spotlight" webinar](https://kontent.ai/webinars/on-demand/introduction-web-spotlight).
 
@@ -11,7 +11,7 @@ _This guide will show you what needs to be done to be able to integrate your pre
 
 ## Prerequisites
 
-* Have this starter already [connected to your own Kentico Kontent project](../README.md#Getting-Started).
+* Have this starter already [connected to your own Kontent project](../README.md#Getting-Started).
 * Have a [preview environment deployed](../README.md#Preview-Deploy)
   * Publicly available on static URL.
   * Preview webhooks configured to update the preview instance.
