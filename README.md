@@ -41,7 +41,7 @@ migrated for getting content from headless CMS
 
 ### Create content source
 
-1. Go to [app.kontent.ai](https://app.kontent.ai) and [create empty project](https://docs.kontent.ai/tutorials/set-up-kontent/projects/manage-projects#a-creating-projects)
+1. Go to [app.kontent.ai](https://app.kontent.ai) and [create empty project](https://kontent.ai/learn/tutorials/manage-kontent/projects/manage-projects#a-create-projects)
 1. Go to "Project Settings", select API keys and copy
     + Project ID
 1. Install [Kontent Backup Manager](https://github.com/Kentico/kontent-backup-manager-js) and import data to newly created project from [`kontent-backup.zip`](./kontent-backup.zip) file (place appropriate values for `apiKey` and `projectId` arguments):
@@ -54,7 +54,7 @@ migrated for getting content from headless CMS
 
     > Alternatively, you can use the [Template Manager UI](https://kentico.github.io/kontent-template-manager/import-from-file) for importing the content.
 
-1. Go to your Kontent project and [publish all the imported items](https://docs.kontent.ai/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
+1. Go to your Kontent project and [publish all the imported items](https://kontent.ai/learn/tutorials/write-and-collaborate/publish-your-work/publish-content-items).
 
 ### Join codebase and content data
 
@@ -86,9 +86,9 @@ npm run build
 
 ### Preview Deploy
 
-To allow this example load unpublished content via  [Preview Delivery API](https://docs.kontent.ai/reference/delivery-api#section/Production-vs.-Preview), you just need to adjust `.env` file created in ["Join codebase to content data"](#Join-codebase-and-content-data) section by setting these environment variables:
+To allow this example load unpublished content via  [Preview Delivery API](https://kontent.ai/learn/reference/delivery-api#section/Production-vs.-Preview), you just need to adjust `.env` file created in ["Join codebase to content data"](#Join-codebase-and-content-data) section by setting these environment variables:
 
-+ KONTENT_PREVIEW_KEY=`<PREVIEW_API_KEY>`by passing the [Preview authentication key](https://docs.kontent.ai/reference/delivery-api#section/Authentication)
++ KONTENT_PREVIEW_KEY=`<PREVIEW_API_KEY>`by passing the [Preview authentication key](https://kontent.ai/learn/reference/delivery-api#section/Authentication)
 + KONTENT_PREVIEW_KEY=`true`
 
 You could also walk through the [Getting started with Gatsby Cloud and Kontent](https://www.gatsbyjs.com/cloud/docs/kontent/getting-started) to set up your Preview environment on [Gatsby Cloud](https://www.gatsbyjs.com/) plus enjoy the bonus in form of [incremental builds](https://www.gatsbyjs.com/cloud/docs/incremental-builds/).
@@ -122,7 +122,7 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 > If you want to use [Incremental builds](https://www.netlify.com/blog/2020/04/23/enable-gatsby-incremental-builds-on-netlify/), you need to enable [Build Plugins Beta](https://docs.netlify.com/configure-builds/build-plugins/#enable-build-plugins-beta) for your site.
 
-> If you want to deploy your own copy of the gatsby-lumen-starter project, in the netlify.toml file modify the `KONTENT_PROJECT_ID` environment variable to match the value from your Kontent project's "Project Settings" ->  API keys -> Project ID, or [set the Netlify environment variables](https://docs.kontent.ai/tutorials/develop-apps/integrate/netlify#a-set-netlify-environment-variables) through the Netlify UI.
+> If you want to deploy your own copy of the gatsby-lumen-starter project, in the netlify.toml file modify the `KONTENT_PROJECT_ID` environment variable to match the value from your Kontent project's "Project Settings" ->  API keys -> Project ID, or [set the Netlify environment variables](https://kontent.ai/learn/tutorials/develop-apps/integrate/netlify#a-set-netlify-environment-variables) through the Netlify UI.
 
 ## Folder Structure
 
