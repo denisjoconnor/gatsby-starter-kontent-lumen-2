@@ -1,4 +1,7 @@
 # Gatsby Starter Kontent Lumen
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+## :warning: Deprecation Notice
+> This project uses legacy Kontent.ai's GraphQL schema generator which has been deprecated - we recommend to use the [GraphQL Delivery API](https://kontent.ai/learn/reference/delivery-graphql-api) directly. 
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Kentico/gatsby-kontent-starter-lumen/master/LICENSE)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico-kontent)
